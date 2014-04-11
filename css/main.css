@@ -102,6 +102,16 @@ li h3 {
   background-position: center center;
   background-repeat: no-repeat; 
   text-align: center;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+#headline:hover{
+  margin-left: -3.5%;
+  margin-top: -3.5%;
 }
 
 #headline p.intro {
@@ -154,5 +164,10 @@ p.photo_team img {
  .top-bar {
   background: #333;
 }
+#headline:hover{
+  
+}
+}
+
 
 
