@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   border:0;
+  color: #333332;
 }
 
 .top-bar .name {
@@ -24,16 +25,25 @@ body {
   background: none;
 }
 
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background: #fff;
+  color: #333332;
+}
+
+.top-bar-section li.active:not(.has-form) a:hover:not(.button) {
+  background: #d9d9d9;
+}
+
 ul.right li a {
-  font-size: 0.8rem;
-  margin-right: 20px;
-  font-weight: 100;
-  letter-spacing: 2px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 1px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 ul.right li {
-  background: none;
+  background: #fff;
 }
 
 h1, h2, h3 {
