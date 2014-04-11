@@ -26,12 +26,12 @@ body {
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-  background: #fff;
-  color: #333332;
+  /*background: #fff;
+  color: #333332;*/
 }
 
 .top-bar-section li.active:not(.has-form) a:hover:not(.button) {
-  background: #d9d9d9;
+  /*background: #d9d9d9;*/
 }
 
 ul.right li a {
